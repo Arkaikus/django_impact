@@ -7,7 +7,7 @@ def index(request):
 
 
 def front_index(request):
-    return render(request,'impact/front/front.html')
+    return render(request, 'impact/front/front.html')
 
 
 def front_about(request):
