@@ -1,3 +1,8 @@
+"""
+Archivo de vistas
+
+cada función renderiza un html a petición de la url asignada
+"""
 from django.shortcuts import render
 
 
@@ -28,3 +33,7 @@ def front_pricing(request):
 
 def dashboard_index(request):
     return render(request, 'impact/dashboard/dashboard.html')
+
+
+def dashboard_login(request):
+    return render(request, 'impact/dashboard/pages/examples/login.html')

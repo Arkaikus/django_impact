@@ -1,3 +1,10 @@
+"""
+Archivo de urls de Impact
+front/ : páginas de landing
+dashboard/ : páginas de dashboard
+
+TODO: páginas de ejemplo
+"""
 from django.urls import path
 from .views import *
 
@@ -10,12 +17,5 @@ urlpatterns = [
     path('front/contact', front_contact, name="impact.front.contact"),
     path('front/pricing', front_pricing, name="impact.front.pricing"),
     path('dasboard/index', dashboard_index, name="impact.dashboard.index"),
-    # path('dashboard', dashboard, name="dashboard"),
-    # path('icons', icons, name="icons"),
-    # path('login', login, name="login"),
-    # path('profile', profile, name="profile"),
-    # path('tables', tables, name="tables"),
-    # path('recover', recover, name="recover"),
-    # path('form', form, name="form"),
-    # path('dtx1', tableExample1, name="dtx1"),
+    path('dasboard/login', dashboard_login, name="impact.dashboard.login"),
 ]
