@@ -18,4 +18,5 @@ urlpatterns = [
     path('front/pricing', front_pricing, name="impact.front.pricing"),
     path('dasboard/index', dashboard_index, name="impact.dashboard.index"),
     path('dasboard/login', dashboard_login, name="impact.dashboard.login"),
+    path('dasboard/profile', dashboard_profile, name="impact.dashboard.profile"),
 ]

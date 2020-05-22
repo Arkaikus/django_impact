@@ -37,3 +37,7 @@ def dashboard_index(request):
 
 def dashboard_login(request):
     return render(request, 'impact/dashboard/pages/examples/login.html')
+
+
+def dashboard_profile(request):
+    return render(request, 'impact/dashboard/pages/examples/profile.html')
