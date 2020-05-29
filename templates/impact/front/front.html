@@ -138,12 +138,7 @@
     {% block main_wrap %}
         <main>
             {% block preloader_wrap %}
-                <div class="preloader bg-soft flex-column justify-content-center align-items-center">
-                    <div class="loader-element">
-                        <span class="loader-animated-dot"></span>
-                        <img src="{% static 'front/assets/img/brand/dark-loader.svg' %}" height="40" alt="Impact logo">
-                    </div>
-                </div>
+                {% include 'impact/lib/_preloader.html' %}
             {% endblock %}
             {% block main_content %}
                 <section class="section-header pb-7 pb-lg-11 bg-soft">
