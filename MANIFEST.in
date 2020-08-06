@@ -1,0 +1,4 @@
+include LICENSE
+include README.rst
+recursive-include impact/static *
+recursive-include impact/templates *
